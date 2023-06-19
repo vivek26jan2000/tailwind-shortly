@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#callToAction {
+  background-image: url("../images/bg-boost-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(257, 27%, 26%);
+}
+
+@media (max-width: 576px) {
+  #callToAction {
+    background-image: url("../images/bg-shorten-desktop.svg");
+  }
+}
